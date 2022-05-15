@@ -1,5 +1,5 @@
 /*
-https://leetcode.com/problems/binary-search/
+    link: https://leetcode.com/problems/binary-search/
 */
 
 #include <vector>
