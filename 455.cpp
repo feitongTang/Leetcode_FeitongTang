@@ -2,6 +2,13 @@
     link: https://leetcode.com/problems/assign-cookies/
 */
 
+
+/*
+    comment:
+    the variable num is always the same as g_ptr;
+    therefore, there's no need to add another variable here
+*/
+
 #include <vector>
 
 using namespace std;
