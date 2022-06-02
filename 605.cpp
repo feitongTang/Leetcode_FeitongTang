@@ -36,7 +36,7 @@ public:
     }
 
     /*
-        another solution from online
+        another solution from online by acforu (https://leetcode.com/problems/can-place-flowers/discuss/103933/simplest-c%2B%2B-code)
         it inserts 0 in the beginning and end, which simplifies the calculation a lot.
         also it uses another way to count
     */
