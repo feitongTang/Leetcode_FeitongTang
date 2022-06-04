@@ -3,5 +3,5 @@
 
 ## Problems to be optimized:
 ### Greedy Algorithm
-[] 435
-[] 452
+- [ ] 435
+- [ ] 452
