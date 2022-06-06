@@ -64,4 +64,33 @@ public:
         
         return result;
     }
+
+    /*
+        another solution from online by hi-malik (https://leetcode.com/problems/partition-labels/discuss/1868842/JavaC%2B%2B-VISUALLY-EXPLAINEDDDDD!!)
+        the other solution is having a similar idea
+        but the way to get the answer after having an unordered map is way more clever
+    */
+
+    vector<int> partitionLabels_online(string s) {
+        unordered_map<char,int>mp;
+        // filling impact of character's
+        for(int i = 0; i < s.size(); i++){
+            char ch = s[i];
+            mp[ch] = i;
+        }
+        // making of result
+        vector<int> res;
+        int prev = -1;
+        int maxi = 0;
+        
+        for(int i = 0; i < s.size(); i++){
+            maxi = max(maxi, mp[s[i]]);
+            if(maxi == i){
+                // partition time
+                res.push_back(maxi - prev);
+                prev = maxi;
+            }
+        }
+        return res;
+    }
 };
