@@ -45,4 +45,23 @@ public:
         }
         return result;
     }
+
+    /*
+        another solution from online by tonygogogo (https://leetcode.com/problems/queue-reconstruction-by-height/discuss/89345/Easy-concept-with-PythonC%2B%2BJava-Solution)
+        Instead of putting each person into their right position
+        this solution use the idea of insert
+        for the tallest people, they do not need to consider other people and can be first placed
+        then for the second-tallest people ,they are inserted according to their second item
+    */
+
+    vector<pair<int, int> > reconstructQueue(vector<pair<int, int> >& people) {
+        sort(people.begin(), people.end(),[](pair<int,int> p1, pair<int,int> p2){
+            return p1.first > p2.first || (p1.first == p2.first && p1.second < p2.second);
+        });
+        vector<pair<int,int> > sol;
+        for (auto person : people){
+            sol.insert(sol.begin() + person.second, person);
+        }
+        return sol;
+    }
 };
