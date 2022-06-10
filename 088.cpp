@@ -48,4 +48,20 @@ public:
             }
         }
     }
+
+    /*
+        another solution from book
+        the point here is to use three pointers: two for nums1 and nums2 (the nums need to compare) and the third pointer
+        that indicates the location to copy the number (starts at the end of nums1)
+    */
+
+    void merge_online(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+        int pos = m-- + n-- - 1;
+        while (m >= 0 && n >= 0) {
+            nums1[pos--] = nums1[m] > nums2[n]? nums1[m--]: nums2[n--];
+        }
+        while (n >= 0) {
+            nums1[pos--] = nums2[n--];
+        }
+    }
 };
