@@ -2,6 +2,18 @@
     link: https://leetcode.com/problems/search-insert-position/
 */
 
+
+/*
+    comment:
+    a typical binary search
+*/
+
+/*
+    status:
+    Runtime: 40.98%
+    Memory Usage: 23.17%
+*/
+
 #include <vector>
 
 using namespace std;
