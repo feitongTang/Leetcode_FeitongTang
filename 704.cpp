@@ -54,5 +54,5 @@ public:
             else low = mid + 1;
         }
         return -1;
-  }
+    }
 };
