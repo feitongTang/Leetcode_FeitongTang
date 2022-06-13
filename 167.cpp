@@ -2,6 +2,17 @@
     link: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 */
 
+/*
+    comment:
+    two pointers; one from the beginning and one from the end
+*/
+
+/*
+    status:
+    Runtime: 94.39%
+    Memory Usage: 42.91%
+*/
+
 #include <vector>
 
 using namespace std;
