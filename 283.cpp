@@ -2,6 +2,16 @@
     link: https://leetcode.com/problems/move-zeroes/
 */
 
+/*
+    comment:
+    a two-pointer problem
+*/
+
+/*
+    Runtime: 75.72%
+    Memory Usage: 14.26%
+*/
+
 #include <vector>
 
 using namespace std;
