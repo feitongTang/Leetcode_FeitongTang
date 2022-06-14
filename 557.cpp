@@ -2,6 +2,18 @@
     link: https://leetcode.com/problems/reverse-words-in-a-string-iii/
 */
 
+/*
+    comment:
+    identify the word and reverse respectively
+    seems like not an efficient method
+*/
+
+/*
+    status:
+    Runtime: 16.49%
+    Memory Storage: 45.27%
+*/
+
 #include <string>
 
 using namespace std;
