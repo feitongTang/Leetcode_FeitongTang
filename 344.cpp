@@ -2,6 +2,16 @@
     link: https://leetcode.com/problems/reverse-string/
 */
 
+/*
+    comment: two pointer method
+*/
+
+/*
+    status:
+    Runtime: 84.65%
+    Memory Storage: 41.23%
+*/
+
 #include <vector>
 
 using namespace std;
