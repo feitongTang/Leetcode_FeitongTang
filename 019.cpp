@@ -2,6 +2,17 @@
     link: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 */
 
+/*
+    comment:
+    the relative position between two pointers is important
+*/
+
+/*
+    status:
+    Runtime: 89.37%
+    Memory Usage: 74.96%
+*/
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
