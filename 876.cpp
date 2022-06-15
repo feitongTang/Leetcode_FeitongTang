@@ -2,6 +2,17 @@
     link: https://leetcode.com/problems/middle-of-the-linked-list/
 */
 
+/*
+    comment:
+    two pointers with one fast and one slow
+*/
+
+/*
+    status:
+    Runtime: 5.86%
+    Memory Usage: 95.30%
+*/
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
